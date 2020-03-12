@@ -32,7 +32,7 @@ export default function App() {
 | `PermissionDeniedComponent` | false | Component | | Component to show when permission to the Contacts list is denied. |
 | `searchBarTextInputProps` | false | Object | None | Set of props to pass to `InputText` search box. |
 | `searchBarDebounceMS` | false | Integer | 500 | Debounce timer on the search bar. |
-| `ContactComponent` | false | Component | | Custom component to render a contact in the list. |
+| `ContactComponent` | false | Component | | Custom component to render a contact in the list. Is given props `contact` and `isSelected`. |
 | `GetMoreComponent` | false | Component | ActivityIndicator | Component to display at bottom of the list when there are more contacts to load. |
 | `contactsListContainerStyle` | false | Object | | Styling for list container. |
 | `headerStyle` | false | Object | | Styling for header containing "done" button. |
