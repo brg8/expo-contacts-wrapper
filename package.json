@@ -1,0 +1,12 @@
+{
+  "name": "expo-contacts-wrapper",
+  "version": "0.0.1",
+  "description": "Simple UI wrapper around expo's Contacts API.",
+  "keywords": ["expo", "contact", "contacts", "react native", "react-native"],
+  "author": "Benjamin Godlove",
+  "license": "MIT",
+  "dependencies": {
+    "expo-contacts": "^8.0.0",
+    "lodash": "^4.17.15"
+  }
+}
